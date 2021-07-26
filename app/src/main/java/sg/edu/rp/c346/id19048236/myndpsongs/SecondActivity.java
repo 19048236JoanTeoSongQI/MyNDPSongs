@@ -24,6 +24,7 @@ public class SecondActivity extends AppCompatActivity {
     ArrayList<String> years;
     Spinner spinner;
     ArrayAdapter<String> spinnerAdapter;
+    CustomAdapter cSongs;
 
     @Override
     protected void onResume() {
@@ -65,6 +66,7 @@ public class SecondActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        lv.setAdapter(cSongs);
 
         btn5Stars.setOnClickListener(new View.OnClickListener() {
             @Override

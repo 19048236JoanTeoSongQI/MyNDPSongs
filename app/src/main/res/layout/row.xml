@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/textViewSongTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Song Title"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewSingers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Singers"
+        android:textColor="@color/teal_700"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewYearR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Year Released"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewStars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stars"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp" />
+</LinearLayout>
